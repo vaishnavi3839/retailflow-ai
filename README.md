@@ -7,23 +7,22 @@ The system integrates AI-based detection, a FastAPI backend, and a web-based das
 
 ## Architecture
 
-
-## Architecture
-
-
-retailflow/
+```
+retailflow-ai/
 ├── backend/
-│ ├── main.py # FastAPI server — REST + WebSocket + MJPEG stream
-│ ├── database.py # SQLAlchemy / SQLite persistence layer
-│ ├── generate_report.py # PDF executive report generator
-│ └── vision/
-│ ├── tracker.py # YOLOv8 + BoT-SORT inference wrapper
-│ ├── analytics.py # Zone occupancy, queue alerting, heatmap
-│ └── predictive_model.py # Behavioural intent classifier
+│   ├── main.py               # FastAPI server — REST + WebSocket + MJPEG stream
+│   ├── database.py           # SQLAlchemy / SQLite persistence layer
+│   ├── generate_report.py    # PDF executive report generator
+│   └── vision/
+│       ├── tracker.py        # YOLOv8 + BoT-SORT inference wrapper
+│       ├── analytics.py      # Zone occupancy, queue alerting, heatmap
+│       └── predictive_model.py  # Behavioural intent classifier
 ├── frontend/
-│ ├── index.html # Professional HTML/CSS/JS dashboard
-│ └── server.py # Lightweight static file server
+│   ├── index.html            # Dashboard UI
+│   └── server.py             # Static file server
 └── environment.yml
+```
+
 
 
 ## Quick Start
