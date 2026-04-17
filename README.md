@@ -21,7 +21,7 @@ retailflow-ai/
 │   ├── index.html            # Professional HTML/CSS/JS dashboard
 │   └── server.py             # Lightweight static file server
 └── environment.yml
-```
+
 
 ## Quick Start
 
